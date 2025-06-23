@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THD Organization Flowchart</title>
+    <link rel="icon" href="https://corporate.homedepot.com/sites/default/files/image_gallery/THD_logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>THD Organization Flowchart</h1>
+        <div class="controls">
+            <button id="expandAll">Expand All</button>
+            <button id="collapseAll">Collapse All</button>
+            <input type="text" id="searchInput" placeholder="Search...">
+        </div>
+        <div class="flowchart" id="flowchart"></div>
+    </div>
+        <script>
+        // Load JSON data
+        let orgData;
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                orgData = data;
+                initializeChart(); // Only initialize after data is loaded
+            })
+            .catch(error => console.error('Error loading JSON:', error));
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

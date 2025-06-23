@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.controls {
+    position: sticky;
+    top: 0;
+    background: #f0f2f5;
+    padding: 10px;
+    z-index: 100;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: fit-content;
+    padding: 20px;
+}
+
+.card {
+    background: #FF6B00;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    min-width: 200px;
+    text-align: center;
+    position: relative;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.card.contractor {
+    background: #ffffff;
+    color: #333;
+    border: 2px solid #FF6B00;
+}
+
+.card-name {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.card-title {
+    font-size: 12px;
+}
+
+.card-level {
+    font-size: 11px;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+.children {
+    display: none;
+    position: relative;
+    padding-top: 30px;
+}
+
+.children.active {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Flowchart Connectors */
+.connector {
+    position: absolute;
+    background: #666;
+}
+
+.connector-vertical {
+    width: 2px;
+    height: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* .connector-horizontal {
+    height: 2px;
+    bottom: 15px;
+} */
+
+/* Level-specific styling */
+[data-level="Level 1 - Executive"] {
+    background: #1a237e;
+}
+
+[data-level="Level 2 - Executive VP"] {
+    background: #283593;
+}
+
+[data-level="Level 3 - Senior VP"] {
+    background: #303f9f;
+}
+
+[data-level="Level 4 - Vice President"] {
+    background: #3949ab;
+}
+
+[data-level="Level 5 - Director"] {
+    background: #3f51b5;
+}
+
+[data-level="Level 6 - Senior Manager"] {
+    background: #5c6bc0;
+}
+
+/* Animation */
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.children {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .card {
+        min-width: 150px;
+    }
+
+    .controls {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #searchInput {
+        width: 100%;
+    }
+}
+.card.contractor-tds {
+    background: #590101;  /* Red color for TDS contractors */
+    color: white;
+}
+
+.card.contractor-dc {
+    background: #ffffff;  /* Blue color for DC contractors */
+    color: Black;
+}

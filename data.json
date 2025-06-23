@@ -1,0 +1,201 @@
+{
+    "DECKER, TED": {
+        "title": "President, CEO",
+        "level": "Level 1 - Executive",
+        "subordinates": ["BROGGI, JORDAN"]
+    },
+    "BROGGI, JORDAN": {
+        "title": "EVP Customer Experience and President Online",
+        "level": "Level 2 - Executive VP",
+        "subordinates": ["GODECKE, REBECCA"]
+    },
+    "GODECKE, REBECCA": {
+        "title": "Sr Vice President",
+        "level": "Level 3 - Senior VP",
+        "subordinates": ["QU, HUIMING"]
+    },
+    "QU, HUIMING": {
+        "title": "Vice President Data Science",
+        "level": "Level 4 - Vice President",
+        "subordinates": ["MATHEW, ANAND"]
+    },
+    "MATHEW, ANAND": {
+        "title": "Data Science Director",
+        "level": "Level 5 - Director",
+        "subordinates": ["SINGH, VIJAY V"]
+    },
+    "SINGH, VIJAY V": {
+        "title": "Data Science Sr Manager",
+        "level": "Level 6 - Senior Manager",
+        "subordinates": [
+            "JAIN, AKSHAY M", 
+            "unKNown1"
+           
+        ]
+    },
+    "SAHARE, POOJA": {
+        "title": "Data Scientist",
+        "level": "Level 7 - Team Members",
+        "subordinates": []
+    },
+    "JAIN, AKSHAY M": {
+        "title": "Data Science Manager",
+        "level": "Level 7 - Team Members",
+        "subordinates": [  
+            "LOBO, VERNON R",
+            "SANJAY, GAURAV",
+            "MEHTA, TEJAL",
+            "SIVARAMAN, HARIHARAN",
+            "TIWARI, AKASH KUMAR",
+            "GURSAL, SHIVRAJ",
+            "CHAKKILAM, PARDHASARADHI",
+            "H, HIMAKIRAN",
+            "KOLUKULURI, RISHEEDHAR VARMA",
+            "HARSHA R",
+            "SANGEETHA P"
+        ]
+    },
+
+    "TADDEI, GIULIANO": {
+        "title": "Sr Data Scientist",
+        "level": "Level 7 - Team Members",
+        "subordinates": []
+    },
+    "MISHRA, AKANKSHA": {
+        "title": "Data Scientist",
+        "level": "Level 7 - Team Members",
+        "subordinates": []
+    },
+    "WANG, CELINE": {
+        "title": "Associate Data Scientist",
+        "level": "Level 7 - Team Members",
+        "subordinates": []
+    },
+    "LOBO, VERNON R": {
+        "title": "Data Scientist",
+        "level": "Level 8 - Extended Team",
+        "type": "employee",
+        "subordinates": []
+    },
+    "SANJAY, GAURAV": {
+        "title": "Data Scientist",
+        "level": "Level 8 - Extended Team",
+        "type": "employee",
+        "subordinates": []
+    },
+    "MEHTA, TEJAL": {
+        "title": "Data Scientist",
+        "level": "Level 8 - Extended Team",
+        "type": "employee",
+        "subordinates": []
+    },
+    "SIVARAMAN, HARIHARAN": {
+        "title": "Contractor",
+        "level": "Level 8 - Extended Team",
+        "type": "contractor",
+        "subordinates": []
+    },
+    "TIWARI, AKASH KUMAR": {
+        "title": "Contractor, TDS 4",
+        "level": "Level 8 - Extended Team",
+        "type": "contractor",
+        "subordinates": []
+    },
+    "GURSAL, SHIVRAJ": {
+        "title": "Contractor, TDS3",
+        "level": "Level 8 - Extended Team",
+        "type": "contractor",
+        "subordinates": []
+    },
+    "CHAKKILAM, PARDHASARADHI": {
+        "title": "Contractor",
+        "level": "Level 8 - Extended Team",
+        "type": "contractor",
+        "subordinates": []
+    },
+    "H, HIMAKIRAN": {
+        "title": "Contractor, TDS 2",
+        "level": "Level 8 - Extended Team",
+        "type": "contractor",
+        "subordinates": []
+    },
+    "KOLUKULURI, RISHEEDHAR VARMA": {
+        "title": "Contractor, TDS 2",
+        "level": "Level 8 - Extended Team",
+        "type": "contractor",
+        "subordinates": []
+    },
+    "HARSHA R": {
+        "title": "Contractor, TDS 2",
+        "level": "Level 8 - Extended Team",
+        "type": "contractor",
+        "subordinates": []
+    },
+    "MOHAMED MASTHAN A": {
+        "title": "Contractor, TDS 3",
+        "level": "Level 8 - Extended Team",
+        "type": "contractor",
+        "subordinates": []
+    },
+    "SANGEETHA P": {
+        "title": "Contractor, TDS 4",
+        "level": "Level 8 - Extended Team",
+        "type": "contractor",
+        "subordinates": []
+    },
+    "SIVAPRAKASH G": {
+        "title": "Contractor, TDS 3",
+        "level": "Level 8 - Extended Team",
+        "type": "contractor",
+        "subordinates": []
+    },
+    "VINAY SAI GORANTLA": {
+        "title": "Contractor, TDS 2",
+        "level": "Level 8 - Extended Team",
+        "type": "contractor",
+        "subordinates": []
+    },
+    "SUJITHKUMAR KRISHNAKUMAR": {
+        "title": "Contractor, TDS 3",
+        "level": "Level 8 - Extended Team",
+        "type": "contractor",
+        "subordinates": []
+    },
+       "unKNown1": {
+        "title": "Data Scientist",
+        "level": "Unknown Level",
+        "type": "unknown",
+        "subordinates": [
+            "MOHAMED MASTHAN A",
+            "SIVAPRAKASH G",
+            "VINAY SAI GORANTLA",
+            "SUJITHKUMAR KRISHNAKUMAR",
+            "SAHARE, POOJA", 
+            "TADDEI, GIULIANO", 
+            "MISHRA, AKANKSHA", 
+            "WANG, CELINE",
+            "KRITI AGRAWAL",
+            "SHUBHAM GUPTA",
+            "VINAYAK NAVALE"
+        ]
+    },
+        "KRITI AGRAWAL": {
+        "title": "Contractor",
+        "level": "Level 8 - Extended Team",
+        "type": "contractor",
+        "subordinates": []
+    },
+        "SHUBHAM GUPTA": {
+        "title": "Contractor",
+        "level": "Level 8 - Extended Team",
+        "type": "contractor",
+        "subordinates": []
+    },
+    "VINAYAK NAVALE": {
+        "title": "Contractor",
+        "level": "Level 8 - Extended Team",
+        "type": "contractor",
+        "subordinates": []
+    }
+
+}
